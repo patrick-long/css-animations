@@ -6,6 +6,7 @@
 
 .parent:hover .child {
     transform: translateX(100%);
+    animation: left-to-right 1s ease-in 500ms
 }
 
 .child {
@@ -13,4 +14,26 @@
     width: 50%;
     background-color: red;
     transition: 1s;
+}
+
+@keyframes left-to-right {
+    0% {
+
+    }
+
+    25% {
+
+    }
+
+    50% {
+
+    }
+
+    75% {
+
+    }
+
+    100% {
+        
+    }
 }
