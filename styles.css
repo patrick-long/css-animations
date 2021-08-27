@@ -1,5 +1,11 @@
 .parent {
-    width: 100vw;
-    height: 10vh;
-    background: red;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(36, 61, 123);
+}
+
+.child {
+    height: 50%;
+    width: 50%;
+    background-color: red;
 }
