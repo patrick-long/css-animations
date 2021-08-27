@@ -5,35 +5,33 @@
 }
 
 .parent:hover .child {
-    transform: translateX(100%);
-    animation: left-to-right 1s ease-in 500ms
+    animation: left-to-right 1s ease-in forwards 3 500ms;
 }
 
 .child {
     height: 50%;
     width: 50%;
     background-color: red;
-    transition: 1s;
 }
 
 @keyframes left-to-right {
     0% {
-
+        transform: translateX(0%);
     }
 
     25% {
-
+        transform: translateX(100%);
     }
 
     50% {
-
+        transform: translateY(100%) translateX(100%);
     }
 
     75% {
-
+        transform: translateX(0%) translateY(100%);
     }
 
     100% {
-        
+        transform: translateX(0%) translateY(0%);
     }
 }
