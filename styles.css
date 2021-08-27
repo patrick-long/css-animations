@@ -4,8 +4,13 @@
     background-color: rgb(36, 61, 123);
 }
 
+.parent:hover .child {
+    transform: translateX(100%);
+}
+
 .child {
     height: 50%;
     width: 50%;
     background-color: red;
+    transition: 1s;
 }
